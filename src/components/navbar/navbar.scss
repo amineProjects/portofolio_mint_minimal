@@ -1,0 +1,31 @@
+@import "@/styles/functions.scss";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: #{scaleValue(30)} 0;
+  margin-bottom: #{scaleValue(112)};
+  // background-color: blue;
+  &-log {
+    display: block;
+  }
+  &-links {
+    display: flex;
+    padding: 1rem;
+  }
+  &-link {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: #{scaleValue(72)};
+    &:last-child {
+      margin-right: 0;
+    }
+    &:active,
+    &:focus {
+      border-bottom: 4px solid var(--primary);
+    }
+  }
+}
