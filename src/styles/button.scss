@@ -1,0 +1,10 @@
+@import "@/styles/const.scss";
+@import "@/styles/functions";
+
+.button {
+  background-color: var(--primary);
+  border: none;
+  padding: #{scaleValue(16)} #{scaleValue(32)};
+  text-transform: uppercase;
+  font: var(--btnText);
+}

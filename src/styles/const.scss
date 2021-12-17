@@ -1,4 +1,11 @@
+@import "./functions.scss";
+@import "./typography.scss";
+
 :root {
-  --ideal-viewport-width: 1920;
   --primary: #ffe600;
+  --bigTitle: 800 #{scaleValue(60)} Montserrat, sans-serif;
+  --title: 800 #{scaleValue(30)} Montserrat, sans-serif;
+  --subTitle: 800 #{scaleValue(15)} Montserrat, sans-serif;
+  --text: 500 #{scaleValue(14)} Montserrat, sans-serif;
+  --btnText: 500 #{scaleValue(16)} Montserrat, sans-serif;
 }

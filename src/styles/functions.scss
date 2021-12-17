@@ -1,7 +1,7 @@
-@import "./const.scss";
+$ideal-viewport-width: 1920;
 
 @function scaleValue($value) {
   @return calc(
-    #{$value} * (clamp(350px, 100vw, 3840px) / var(--ideal-viewport-width))
+    #{$value} * (clamp(350px, 100vw, 3840px) / #{$ideal-viewport-width})
   );
 }

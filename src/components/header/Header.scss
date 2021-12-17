@@ -1,0 +1,23 @@
+@import "@/styles/const.scss";
+@import "@/styles/button.scss";
+.header {
+  display: flex;
+
+  &-image {
+    width: 50%;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &-content {
+    width: 50%;
+    text-align: left;
+    & h1 {
+      font: var(--bigTitle);
+    }
+    & p {
+      font: var(--text);
+    }
+  }
+}
